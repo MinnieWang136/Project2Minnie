@@ -9,16 +9,17 @@
 <body>
 
     
-    <!-- INPUT FIELD FOR 1 CHARACTER -->
-    <input type="text" id="charInput" maxlength="1">
+   <!-- Input field for 1 character -->
+<input type="text" id="charInput" maxlength="1">
 
-    <!-- BUTTON TO DISPLAY IMAGE -->
-    <button onclick="displayImage()" id="submitButton">Show Image</button>
+<!-- Button to display image -->
+<button onclick="displayImage()" id="submitButton">Show Image</button>
 
-    <!-- IMAGE TO DISPLAY -->
-    <img id="displayedImage" src="" alt="Displayed Image">
+<!-- Image to display based on character input -->
+<img id="displayedImage" src="" alt="Displayed Image" style="display: none;">
 
-
+<!-- GIF to display when input is invalid -->
+<img id="gifDisplay" src="cat.gif" alt="GIF" style="display: none;">
     <script src="oneinput.js"></script>
 
     

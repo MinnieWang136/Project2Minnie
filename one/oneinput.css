@@ -14,6 +14,8 @@ body {
     align-items: center;
 }
 
+
+
 /* Cute Input Field */
 #charInput {
     font-size: 20px;
@@ -47,7 +49,7 @@ body {
 }
 
 /* Soft Plush Image Display - Centered */
-#displayedImage {
+#gifDisplay, #displayedImage {
     display: none;
     margin-top: 20px;
     border-radius: 20px;
